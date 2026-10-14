@@ -1,0 +1,31 @@
+# Runtime and local configuration
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+token.json
+token.json.*
+.token-*
+rclone.conf
+rclone.conf.*
+*.pem
+*.key
+# Manifest, downloads and logs
+state/
+backup/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.ydb-part
+*.log
+*.lock
+# Local diagnostics and scratch data
+work/
+yandex-disk-diagnostics.md
+.DS_Store
+
